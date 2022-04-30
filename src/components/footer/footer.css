@@ -1,0 +1,7 @@
+.text-white{
+    text-decoration: none !important;
+}
+
+.text-white:hover{
+    color: aqua !important;
+}

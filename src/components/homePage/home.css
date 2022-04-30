@@ -1,0 +1,85 @@
+body{
+    background-color:#1f2833;
+}
+.home{
+    color: #66FCF1;
+    margin-top: 55px;
+}
+.home .text{
+    font-size: 60px;
+}
+.img1{
+    margin-top: 30px;
+    margin-left: -50px;
+}
+.tools{
+    font-size: 32px;
+    text-align: center;
+}
+.container2{
+    justify-content: space-evenly;
+    display: flex;
+}
+.imageContainer img{
+    border-radius: 10%;
+}
+.Anxious{
+    border: 2px solid #45A29E;
+    background-color: #2C3531;
+    color: white;
+}
+.image{
+    justify-content: center;
+    display: flex;
+    margin-top: -70px;
+}
+.image :hover{
+    background-color: #66FCF1;
+    border-radius: 50%;
+    transition: 0.9s;
+}
+.card-deck h3 {
+    color: white;
+}
+.card-deck p {
+    color: rgb(240, 229, 229);
+}
+.card-deck .card {
+    background-color: #45A29E;
+}
+@media screen and (max-width: 480px) {
+    .home{
+        margin-top: 55px;
+    }
+    .home .text{
+        
+        font-size: 30px;
+    }
+    .home .btn{
+        display: flex;
+        justify-content: center;
+    }
+    .container2{
+        justify-content: space-evenly;
+        display:block;
+    }
+    .imageContainer img{
+    
+        justify-content: center;
+        display: flex;
+        border-radius: 10%;
+    }
+    .img1{
+        height: auto;
+        width: 320px;
+        margin-top: 0px;
+    margin-left: 5px;
+    }
+    .tools{
+        font-size: 20px;
+        text-align: center;
+    }
+    .Anxious{
+        margin-top: 40px;
+    }
+}
